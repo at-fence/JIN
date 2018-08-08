@@ -11,7 +11,7 @@
         //1. 다음 contents로 넘기기 click으
         $(".contents-img").click(function(){
           $(this).parent(".index").fadeOut(250, function(){
-            if (index == '10') {
+            if (index == '11') {
               index = 1;
               $("#index-1").fadeIn(250);
             }
@@ -141,10 +141,19 @@
 
           <div class="index" id="index-10" style="display:none;">
             <div class="contents-img">
-              <img style="height : 100%;" src="./content/10/title.jpg" alt="title-9">
+              <img style="height : 100%;" src="./content/10/title.jpg" alt="title-10">
             </div>
             <div class="contents-descript">
               <p class="descript-text" >Welcome Restaurants -1- / Comics<br></p>
+            </div>
+          </div>
+
+          <div class="index" id="index-11" style="display:none;">
+            <div class="contents-img">
+              <img style="height : 100%;" src="./content/11/title.png" alt="title-11">
+            </div>
+            <div class="contents-descript">
+              <p class="descript-text" >Pixel Dot Sketch / Illustration<br></p>
             </div>
           </div>
 
@@ -349,6 +358,28 @@
           </div>
           <div class="detail-img">
             <img class="detail-img" src="./content/10/4.jpg" alt="4">
+          </div>
+        </div>
+
+        <div class="index-detail" id="detail-11">
+          <div class="detail-title">
+            <p style="margin-bottom:10px;"><br>Pixel Dot Sketch</p>
+            <p style="font-size:14px;">Illustration</p>
+          </div>
+          <div class="detail-img">
+            <img class="detail-img" src="./content/11/1.png" alt="1">
+          </div>
+          <div class="detail-img">
+            <img class="detail-img" src="./content/11/2.png" alt="2">
+          </div>
+          <div class="detail-img">
+            <img class="detail-img" src="./content/11/3.png" alt="3">
+          </div>
+          <div class="detail-img">
+            <img class="detail-img" src="./content/11/4.png" alt="4">
+          </div>
+          <div class="detail-img">
+            <img class="detail-img" src="./content/11/5.png" alt="5">
           </div>
         </div>
 
