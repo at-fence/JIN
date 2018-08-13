@@ -11,7 +11,7 @@
         //1. 다음 contents로 넘기기 click으
         $(".contents-img").click(function(){
           $(this).parent(".index").fadeOut(250, function(){
-            if (index == '11') {
+            if (index == '12') { //enter index num
               index = 1;
               $("#index-1").fadeIn(250);
             }
@@ -63,7 +63,7 @@
               <img style="height : 100%;" src="./content/1/title.png" alt="img">
             </div>
             <div class="contents-descript">
-              <p class="descript-text" >WEGE vol.3 / Book Design <br></p>
+              <p class="descript-text" >WEGE vol.3 / Book Design<br></p>
             </div>
           </div>
 
@@ -108,7 +108,7 @@
               <img style="height : 100%;" src="./content/6/title.jpg" alt="title-6">
             </div>
             <div class="contents-descript">
-              <p class="descript-text" >Cookie Jar muffin / Illustration <br></p>
+              <p class="descript-text" >Cookie Jar Muffin / Illustration <br></p>
             </div>
           </div>
 
@@ -157,6 +157,15 @@
             </div>
           </div>
 
+          <div class="index" id="index-12" style="display:none;">
+            <div class="contents-img">
+              <img style="height : 100%;" src="./content/12/title.jpg" alt="title-12">
+            </div>
+            <div class="contents-descript">
+              <p class="descript-text" >SOGANG vol.75 / Book Cover Design<br></p>
+            </div>
+          </div>
+
         </div>
 
         <div class="scroll_down">
@@ -180,11 +189,13 @@
           <div class="detail-img">
             <img class="detail-img" src="./content/1/3.png" alt="3">
           </div>
-          <div class="detail-img">
+          <div class="detail-img" >
             <img class="detail-img" src="./content/1/4.png" alt="4">
           </div>
-          <div style="margin-bottom:10vh;">
-            <p><a href="http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=159906635" target="_blank"> aladin </a></p>
+
+          <div class="detail-caption">
+            <p style="font-size:12px; color:#999999;">2018.06 - 2018.07<br>148*210mm, 292p<br>Adobe Illustrator, Indesign<br><br><br>
+            <a href="http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=159906635" target="_blank"> aladin </a></p>
           </div>
         </div>
 
@@ -202,8 +213,11 @@
           <div class="detail-img">
             <img class="detail-img" src="./content/2/3.jpg" alt="3">
           </div>
-          <div style="margin-bottom:10vh;">
-            <p><a href="https://www.tumblbug.com/criticsrecord2" target="_blank"> tumblbug </a></p>
+
+          <div class="detail-caption">
+            <p style="font-size:12px; color:#999999;">2017.01 - 2017.02<br>148*210mm, 182p<br>Adobe Illustrator, Indesign<br><br><br>
+            <a href="https://www.tumblbug.com/criticsrecord2" target="_blank">Tumblbug</a><br>
+            <a href="http://normala.kr/shop/%ED%81%AC%EB%A6%AC%ED%8B%B1%EC%8A%A4-%EB%A0%88%EC%BD%94%EB%93%9C-2-%EC%9A%B0%EB%A6%AC-%EC%8B%9C%EB%8C%80%EC%9D%98-%EC%A4%91%EA%B2%AC-%EB%B9%84%ED%8F%89%EA%B0%80/">NOrmal A</a></p>
           </div>
         </div>
 
@@ -224,8 +238,10 @@
           <div class="detail-img">
             <img class="detail-img" src="./content/3/4.png" alt="4">
           </div>
-          <div style="margin-bottom:10vh;">
-            <p><a href="http://www.aladin.co.kr/shop/wproduct.aspx?ISBN=K152532830" target="_blank"> aladin </a></p>
+
+          <div class="detail-caption">
+            <p>2017.12 - 2018.02<br>148*210mm, 286p<br>Adobe Illustrator, Indesign <br><br><br>
+            <a href="http://www.aladin.co.kr/shop/wproduct.aspx?ISBN=K152532830" target="_blank"> aladin </a></p>
           </div>
         </div>
 
@@ -243,7 +259,11 @@
           <div class="detail-img">
             <img class="detail-img" src="./content/4/3.jpg" alt="3">
           </div>
-          <p style="margin-bottom:10vh;">with Alex</p>
+
+          <div class="detail-caption">
+            <p>2017.06<br>60*180cm, 500*90cm<br>Adobe Illustrator<br><br>
+            Collaborated with Yerin Choi<br>3D Graphic by Yerin Choi</p>
+          </div>
         </div>
 
         <div class="index-detail" id="detail-5">
@@ -257,6 +277,10 @@
           <div class="detail-img">
             <img class="detail-img" src="./content/5/2.png" alt="2">
           </div>
+
+          <div class="detail-caption">
+            <p>2018.01 - 2018.02<br>148*210mm, 144p<br>Adobe Photoshop, Indesign</p>
+          </div>
         </div>
 
         <div class="index-detail" id="detail-6">
@@ -265,17 +289,21 @@
             <p style="font-size:14px;">Illustration</p>
           </div>
           <div class="detail-img">
-            <img class="detail-img" src="./content/6/1.gif" alt="1">
+            <img style="height:80%;" class="detail-img" src="./content/6/1.gif" alt="1">
           </div>
           <div class="detail-img">
             <img class="detail-img" src="./content/6/2.png" alt="2">
+          </div>
+
+          <div class="detail-caption">
+            <p>2017.12<br>Adobe Photoshop<br><br>refernce : <a href="https://youtu.be/rRgTMs_bGuI" target="_blank">[red velvet] '#Cookie Jar' MV</a></p>
           </div>
         </div>
 
         <div class="index-detail" id="detail-7">
           <div class="detail-title">
             <p style="margin-bottom:10px;"><br>Loose Day</p>
-            <p style="font-size:14px;">Type Design<br>(Poster, Concept Art Book Design)</p>
+            <p style="font-size:14px;">Type Design(Poster, Concept Art Book Design)</p>
           </div>
           <div class="detail-img">
             <img class="detail-img" src="./content/7/1.png" alt="1">
@@ -301,6 +329,10 @@
           <div class="detail-img">
             <img class="detail-img" src="./content/7/8.png" alt="8">
           </div>
+
+          <div class="detail-caption">
+            <p>2016.10 - 2016.12<br>Poster : 420*594mm<br>Book : 105*297mm, 28p<br>Adobe Illustrator, Photoshop</p>
+          </div>
         </div>
 
         <div class="index-detail" id="detail-8">
@@ -316,6 +348,11 @@
           </div>
           <div class="detail-img">
             <img class="detail-img" src="./content/8/2.png" alt="3">
+          </div>
+
+          <div class="detail-caption">
+            <p>2016.04 - 2016.06<br>148*210mm, 160p<br>Adobe Illustrator, Indesign<br><br>
+            <a href="http://normala.kr/shop/%ED%81%AC%EB%A6%AC%ED%8B%B1%EC%8A%A4-%EB%A0%88%EC%BD%94%EB%93%9C-1-%EB%8C%80%EC%A4%91%EC%9D%8C%EC%95%85-%EB%B9%84%ED%8F%89%EC%9D%98-%ED%98%84%EC%9E%AC/" target="_blank">NOrmal A</a></p>
           </div>
         </div>
 
@@ -340,6 +377,10 @@
           <div class="detail-img" style="height:30vh;">
             <img class="detail-img" style="height:30vh;" src="./content/9/5.jpg" alt="5">
           </div>
+
+          <div class="detail-caption">
+            <p>2017.05 - 2017.06<br>Adobe Illustrator</p>
+          </div>
         </div>
 
         <div class="index-detail" id="detail-10">
@@ -358,6 +399,10 @@
           </div>
           <div class="detail-img">
             <img class="detail-img" src="./content/10/4.jpg" alt="4">
+          </div>
+
+          <div class="detail-caption">
+            <p>2018.06<br>4p<br>Adobe Photoshop</p>
           </div>
         </div>
 
@@ -380,6 +425,39 @@
           </div>
           <div class="detail-img">
             <img class="detail-img" src="./content/11/5.png" alt="5">
+          </div>
+
+          <div class="detail-caption">
+            <p>2018.03 - 2018.06, sketch<br>Adobe Photoshop, Illustrator</p>
+          </div>
+        </div>
+
+        <div class="index-detail" id="detail-12">
+          <div class="detail-title">
+            <p style="margin-bottom:10px;"><br>SOGANG vol.75</p>
+            <p style="font-size:14px;">Book Cover Design</p>
+          </div>
+          <div class="detail-img">
+            <img class="detail-img" src="./content/12/1.png" alt="1">
+          </div>
+          <div class="detail-img">
+            <img class="detail-img" src="./content/12/2.png" alt="2">
+          </div>
+          <div class="detail-img">
+            <img class="detail-img" src="./content/12/3.png" alt="3">
+          </div>
+          <div class="detail-img">
+            <img class="detail-img" src="./content/12/4.png" alt="4">
+          </div>
+          <div class="detail-img">
+            <img class="detail-img" src="./content/12/5.png" alt="5">
+          </div>
+          <div class="detail-img">
+            <img class="detail-img" src="./content/12/6.png" alt="6">
+          </div>
+
+          <div class="detail-caption">
+            <p>2018.08<br>148*210mm<br>Adobe Photoshop</p>
           </div>
         </div>
 

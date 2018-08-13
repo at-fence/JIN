@@ -69,3 +69,8 @@ body{position: relative;}
   height: 70vh;
   margin-bottom: 10vh;
 }
+.detail-caption{
+  margin-bottom: 10vh;
+  font-size:12px;
+  color: #999999;
+}
