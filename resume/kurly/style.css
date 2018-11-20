@@ -4,7 +4,7 @@ a{color: inherit;}
 body{
 	background-color: white;
 	margin : 5vh auto 15vh auto;
-	color: black;
+	color: rgb(110,75,140);
 	border: solid 5px black;
 	font-size: 1.25em;
 	font-weight: 700;
