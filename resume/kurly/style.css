@@ -4,8 +4,8 @@ a{color: inherit;}
 body{
 	background-color: white;
 	margin : 5vh auto 15vh auto;
-	color: rgb(110,75,140);
-	border: solid 5px black;
+	color: rgba(110,75,140,1);
+	border: solid 5px rgba(110,75,140,1);
 	font-size: 1.25em;
 	font-weight: 700;
 	font-family: 'Helvetica',sans-serif;
