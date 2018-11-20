@@ -46,7 +46,7 @@ header{
 }
 #profile-img{
 	grid-area: 1 / 2 / 2 / 3;
-	background-image: url(profile-img.jpg);
+	background-image: url(profile-img.JPG);
 	background-size: cover;
 	background-position: center;
 	border-left: solid 5px black;
