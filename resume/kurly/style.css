@@ -46,7 +46,7 @@ header{
 }
 #profile-img{
 	grid-area: 1 / 2 / 2 / 3;
-	background-image: url(profile-img.JPG);
+	background-image: url(profile-img.jpg);
 	background-size: cover;
 	background-position: center;
 	border-left: solid 5px black;
@@ -222,10 +222,10 @@ header{
 #img-3-6{ background-image: url(contents/pixel/6.png);}
 #img-3-7{ background-image: url(contents/pixel/7.png);}
 #img-3-8{ background-image: url(contents/pixel/8.png);}
-#img-3-9{ background-image: url(contents/pixel/9.png);}
 
-
-#img-4-1{ background-image: url(contents/wege2/1.png);}
-#img-4-2{ background-image: url(contents/wege2/2.png);}
-#img-4-3{ background-image: url(contents/wege2/3.png);}
-#img-4-4{ background-image: url(contents/wege2/4.png);}
+#img-4-1{ background-image: url(contents/brand/1.png);}
+#img-4-2{ background-image: url(contents/brand/2.png);}
+#img-4-3{ background-image: url(contents/brand/3.png);}
+#img-4-4{ background-image: url(contents/brand/4.png);}
+#img-4-5{ background-image: url(contents/brand/5.png);}
+#img-4-6{ background-image: url(contents/brand/6.png);}
